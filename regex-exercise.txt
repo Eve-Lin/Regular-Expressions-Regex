@@ -1,0 +1,29 @@
+abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz
+1234567890
+
+Ha HaHa     Ex. \bHa\b - will math only the first "Ha"
+
+MetaCharacters (Need to be escaped)
+[{()\^$|?*+
+
+coreyms.com
+
+321-555-4321  Ex. \d{3}.\d{3}.\d{4}
+123.555.1234
+123*555*7777
+
+Mr. Schafer    //M(r|s|rs)\.*\s[A-Z]\w*
+Mr Smith
+Ms Davis
+Mrs Robinson
+Mr. T
+
+CoreyMSchafer@gmail.com         //[a-zA-Z]+\.?\-?\d*\-?\w+@\w+\-?\w*\.{1}\w+
+corey.schafer@university.edu    //[a-zA-Z0-9.-]+@[a-zA-Z-]+\.(com|edu|net)
+corey-321-schafer@my-work.net   //[a-zA-Z0-9.-]+@[a-zA-Z-]+\.[a-zA-Z-]+
+
+https://www.google.com  //https?://(www\.)?[a-z]*\.[a-z]*
+http://coreyms.com
+https://youtube.com     //https?://(www\.)?(\w+)(\.\w+)
+https://www.nasa.gov
